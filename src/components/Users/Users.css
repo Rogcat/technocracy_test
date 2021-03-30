@@ -1,0 +1,69 @@
+.users{
+    position: relative;
+    width: 100%;
+    padding: 48px;
+}
+
+.users .user{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin: 0 0 18px 0;
+    border-radius: 4px;
+    padding:16px 46px 16px 16px;
+    background: #FFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.07); 
+}
+
+.user_info{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 180px;
+    margin: 0 44px 0 0;
+}
+
+.user_info .user_avatar{
+    position: relative;
+    width: 48px;
+    height: 48px;
+    margin: 0 16px 0 0;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: blueviolet;
+}
+.user_info .user_name{
+    position: relative;
+    font-size: 16px;
+}
+
+.user_balance{
+    position: relative;
+    width: 190px;
+    margin: 0 44px 0 0;
+}
+
+.user_update{
+    position: relative;
+    width: calc(100% - 702px);
+    margin: auto 54px auto auto;
+    text-align: right;
+}
+
+.user_status{
+    position: relative;
+    width: 150px;
+    margin: auto 0 auto auto;
+    text-align: right;
+}
+
+.user_status select{
+    border: 0;
+}
